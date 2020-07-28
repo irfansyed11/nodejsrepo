@@ -2,7 +2,7 @@ sudo: true
 language: node_js
 
 node_js:
-  - node
+- node
 sudo: true
 script:
   - npm run start
