@@ -1,9 +1,9 @@
-sudo: true
+sudo: required
 language: node_js
 
 node_js:
 - node
-sudo: true
+sudo: required
 script:
   - npm run start
 
