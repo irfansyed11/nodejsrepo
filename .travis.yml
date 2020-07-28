@@ -5,7 +5,7 @@ node_js:
 - node
 sudo: required
 script:
-  - npm run start
+  -sudo npm run start
 
 notifications:
   email: false
