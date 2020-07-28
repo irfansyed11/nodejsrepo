@@ -1,8 +1,12 @@
-sudo: true
+sudo: false
 language: node_js
 
 node_js:
-- node
-- 'lts/*'
+  - node
 
-cache: npm
+script:
+  - npm run lint
+  - npm run start
+
+notifications:
+  email: false
